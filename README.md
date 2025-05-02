@@ -53,4 +53,4 @@ Separate `Locals/` folders per project
 **BlazorWasm**: (Coming soon) WebAssembly version
 
 ## 📚 Blog Post
-📝 Read the blog – "Blazor Server: Language Translation"
+📝 Read the blog – "[Blazor Server: Language Translation](https://medium.com/@mariekie/blazor-server-language-translation-1ead314db869)"
