@@ -1,0 +1,13 @@
+﻿@page "/"
+@using Microsoft.Extensions.Localization
+
+<PageTitle>@localizer["Home"]</PageTitle>
+
+<h1>@localizer["Hello world"]</h1>
+
+@localizer["Welcome"]
+
+@code{
+    [Inject] private IStringLocalizer<BlazorServer.Locals.Resources> localizer { get; set; } = default!;
+
+}

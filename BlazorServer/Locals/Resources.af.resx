@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Weather" xml:space="preserve">
+        <value>Weer</value>
+    </data>
+    <data name="SubHeading" xml:space="preserve">
+        <value>Hierdie komponent demonstreer hoe om data te wys.</value>
+    </data>
+    <data name="Loading" xml:space="preserve">
+        <value>Laai</value>
+    </data>
+    <data name="Date" xml:space="preserve">
+        <value>Datum</value>
+    </data>
+    <data name="Summary" xml:space="preserve">
+        <value>Opsomming</value>
+    </data>
+    <data name="Temperature" xml:space="preserve">
+        <value>Temperatuur</value>
+    </data>
+    <data name="Freezing" xml:space="preserve">
+        <value>Vriesend</value>
+    </data>
+    <data name="Cool" xml:space="preserve">
+        <value>Koel</value>
+    </data>
+    <data name="Warm" xml:space="preserve">
+        <value>Warm</value>
+    </data>
+    <data name="Chilly" xml:space="preserve">
+        <value>Koelerig</value>
+    </data>
+    <data name="Balmy" xml:space="preserve">
+        <value>Aangenaam warm</value>
+    </data>
+    <data name="Mild" xml:space="preserve">
+        <value>Matig</value>
+    </data>
+    <data name="Hot" xml:space="preserve">
+        <value>Baie warm</value>
+    </data>
+    <data name="Sweltering" xml:space="preserve">
+        <value>Smoorwarm</value>
+    </data>
+    <data name="Scorching" xml:space="preserve">
+        <value>Skroeiend warm</value>
+    </data>
+    <data name="Counter" xml:space="preserve">
+        <value>Teller</value>
+    </data>
+    <data name="Home" xml:space="preserve">
+        <value>Tuisblad</value>
+    </data>
+    <data name="Navigation menu" xml:space="preserve">
+        <value>Kieslys</value>
+    </data>
+    <data name="About" xml:space="preserve">
+        <value>Inligting</value>
+    </data>
+    <data name="An unhandled error has occurred" xml:space="preserve">
+        <value>’n Onverwagte fout het voorgekom.</value>
+    </data>
+    <data name="Reload" xml:space="preserve">
+        <value>Herlaai</value>
+    </data>
+    <data name="Current count" xml:space="preserve">
+        <value>Huidige telling</value>
+    </data>
+    <data name="Click me" xml:space="preserve">
+        <value>Kliek hier</value>
+    </data>
+    <data name="Hello World" xml:space="preserve">
+        <value>Hallo, Wêreld!</value>
+    </data>
+    <data name="Welcome" xml:space="preserve">
+        <value>Vertaal, gelokaliseer, en voorgesit! dis mos nou lekker!</value>
+    </data>
+    <data name="Select language" xml:space="preserve">
+        <value>Kies taal</value>
+    </data>
+</root>

@@ -1,0 +1,8 @@
+@using System.Globalization
+<div class="d-flex flex-column justify-content-center align-items-center pt-2" style="font-size: small" >
+    <select class="form-select " @bind="Culture">
+        <option value="@(new CultureInfo("en"))">English</option>
+        <option value="@(new CultureInfo("afr"))">Afrikaans</option>
+    </select>
+    <label class="form-label fw-light " style="font-size: small">@localizer["Select language"]</label>    
+</div>

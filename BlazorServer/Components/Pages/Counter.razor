@@ -1,0 +1,22 @@
+﻿@page "/counter"
+@using Microsoft.Extensions.Localization
+
+<PageTitle>@localizer["Counter"]</PageTitle>
+
+<h1>@localizer["Counter"]</h1>
+
+<p role="status">@localizer["Current count"]: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">@localizer["Click me"]</button>
+
+@code {
+
+    [Inject] private IStringLocalizer<BlazorServer.Locals.Resources> localizer { get; set; } = default!;
+    
+    private int currentCount = 0;
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+}

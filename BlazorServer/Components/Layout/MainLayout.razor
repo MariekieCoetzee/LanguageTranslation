@@ -1,0 +1,28 @@
+﻿@using Microsoft.Extensions.Localization
+@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu/>
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <LanguageSelection></LanguageSelection>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui" data-nosnippet>
+    @localizer["An unhandled error has occurred"]
+    <a href="." class="reload">@localizer["Reload"]</a>
+    <span class="dismiss">🗙</span>
+</div>
+
+@code{
+    [Inject] private IStringLocalizer<BlazorServer.Locals.Resources> localizer { get; set; } = default!;
+}
