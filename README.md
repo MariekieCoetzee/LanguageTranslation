@@ -3,6 +3,13 @@
 A sample solution demonstrating **language translation in Blazor Server**, using `.resx` resource files and culture-aware middleware.  
 WebAssembly support coming soon!
 
+**Afrikaans**
+
+![img.png](img.png) 
+
+**English**
+
+![img_1.png](img_1.png)
 ---
 
 ## 📁 Solution Structure
